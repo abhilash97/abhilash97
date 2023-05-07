@@ -1,28 +1,225 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <link rel="stylesheet" href="css/styles.css">
-   <title>Abhilash Neog Portfolio</title>
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am Abhilash!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:abhilash22@vt.edu”>abhilash22@vt.edu</a></li>
-   </ul>
-   </footer>
- </body>
+   <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <title>Abhilash Neog Portfolio</title>
+   </head>
+   <body>
+      <header id="myhead">
+         <div class="header-left">
+            <nav>
+               <ul>
+                  <li style="color:#000000;font-size:30px;width:70px"><a href="https://abhilash97.github.io/abhilash97/" style="text-decoration:None">Abhilash Neog</a></li>
+               </ul>
+            </nav>
+         </div>
+         <div class="header-right">
+            <nav>
+               <ul>
+                  <li><a href="#about" style="font-size:18px">About</a></li>
+                  <li><a href="#edu" style="font-size:18px">Education</a></li>
+                  <li><a href="#pub" style="font-size:18px">Publications</a></li>
+                  <li><a href="#pro" style="font-size:18px">Professional Experience</a></li>
+                  <li><a href="#other" style="font-size:18px">Other</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <br><br><br>
+      <main>
+      <div class="float-parent-element">
+         <div class="float-child-element">
+            <section id="picture">
+               <img src="ME.jpeg" alt="Your Name" style="max-width: 80%; margin:20px">
+               <p style="font-size:15px;font-family:Sans-Serif;margin-left:2em;">Graduate Student (M.S.), <br>Department of Computer Science, <br>Virginia Tech</p><br>
+               <ul>
+                  <a href="https://www.linkedin.com/in/abhilash-neog-2021/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:20px; color:blue">  <b>LinkedIn</b></i></a>
+                  <br><br>
+                  <a href="https://scholar.google.com/citations?user=hnU1g28AAAAJ&hl=en&authuser=1" target="_blank"><i class="fa fa-graduation-cap" style="font-size:20px; color:#4682B4"> <b>Google Scholar</b></i></a>
+                  <br><br>
+                  <a href="https://github.com/abhilash97" target="_blank"><i class="fa fa-github" style="font-size:20px; color: #2F4F4F"> <b>Github</b></i></a>
+                  <br><br>
+                  <a href="https://drive.google.com/file/d/1ud7RCKPd1IF5s3hlD83FcfN_JDmBEtad/view?usp=sharing" target="_blank"><i class="fa fa-file" style="font-size:20px; color:#696969"> <b>CV</b></i></a>
+                  <br><br>
+                  <a href="mailto:abhilash22@vt.edu" target="_blank"><i class="fa fa-envelope" style="font-size:20px;color:#D2691E"> <b>Email</b></i></a>
+               </ul>
+            </section>
+         </div>
+         <div class="float-child-element-rt">
+            <section id="about">
+               <h1>About Me</h1>
+               <ul style="text-align: left;font-family:Helvetica, Arial, Sans-Serif;">
+                  <p style="font-size:20px;">
+                     I am a graduate student at Virginia Tech. Prior to joining VT, I worked as a Data scientist, where I was
+                     involved in the development of ML-based applications. I have extensively worked on developing analytic applications in
+                     PySpark, and have significant experience with the application life-cycle - data extraction, processing,  modelling, ML
+                     models, build and deploy in ETL pipeline.
+                  <p style="font-size:20px;"> While I have majorly worked on Data science projects in the financial domain,
+                     currently I am interested in exploring other domains like social media and climate science. Furthermore, I am highly
+                     interested in Deep Learning and Natural Language Processing, and also wish to explore multimodal learning and problems at the
+                     intersection of NLP and vision.
+               </ul>
+            </section>
+            <section id="news">
+               <h1 style="margin:40px;"> News</h2>
+               <ul style="list-style-type: disc; text-align: left;font-family:Georgia;font-size:18px">
+                    <li><b>May, 2023</b>: Gave a Talk at the <b>Frontiers in Ecological Forecasting</b> event at Virginia Tech. Slides available <a href="https://docs.google.com/presentation/d/14wornTiu-EWXY-W0Ii4RQ_EyNCokzdnY4qcr2QzNpGY/edit?usp=sharing">here</a></li>
+                    <br><li><b>December, 2022</b>: Became a Graduate Research Assistant at the Knowledge-guided Machine Learning Lab, Virginia Tech</li>
+                    <br><li><b>August, 2022</b>: Joined Virginia Tech as a M.S. Computer Science Student !</li>
+               </ul>
+            </section><br>
+            <section id="edu">
+               <h1 style="margin:40px;">
+               Education</h2>
+               <ul style="list-style-type: disc; text-align: left;">
+                  <div class="education">
+                     <div class="education-image">
+                        <img src="vt_logo.png" alt="vt" style="width:80px;height:80px;">
+                     </div>
+                     <div class="education-text">
+                        <h2> Virginia Tech </h2>
+                        <p style="font-size:20px;margin:8px"> Master of Science (M.S.) Computer Science <br>Aug 2022 - Present</p>
+                     </div>
+                  </div>
+                  <div class="education">
+                     <div class="education-image">
+                        <img src="pilani_logo.png" alt="pilani" style="width:80px;height:80px;">
+                     </div>
+                     <div class="education-text">
+                        <h2> Birla Institute of Technology and Science (BITS) Pilani </h2>
+                        <p style="font-size:20px;margin:8px"> Bachelor of Engineering (B.E.) Computer Science <br>July 2016 - July 2020</p>
+                     </div>
+                  </div>
+               </ul>
+            </section><br>
+            <section id="publications">
+               <h1>Publications</h1>
+               <ul style="list-style-type: disc; text-align: left;">
+               <div class="publications">
+                  <div class="publications-image">
+                     <img src="eigenfaces.jpeg" alt="endo" style="border-radius:0%;width:120px;height:120px">
+                  </div>
+                  <div class="publications-text">
+                    <h2 style="margin:2px; padding-left:10px;"> Hybrid Nature-Inspired Optimization Techniques in Face Recognition </h2>
+                    <i style="margin:12px;">Transactions on Computational Science XXXVI. LNCS Springer (2020)</i>
+                     <p style="font-size:20px;margin:12px"> Lavika Goel, <b>Abhilash Neog</b>, Ashish Aman, Arshveer Kaur <br>
+                       <a href="https://link.springer.com/chapter/10.1007/978-3-662-61364-1_6" style="color:blue;text-decoration:None;"> Paper </a>
+                  </div>
+               </div>
+            </section><br>
+            <section id="pro">
+               <h1>Professional Experience</h1>
+               <ul style="list-style-type: disc; text-align: left;">
+               <div class="publications">
+                  <div class="publications-image">
+                     <img src="kgml.png" alt="endo" style="border-radius:0%;width:120px;height:90px">
+                  </div>
+                  <div class="publications-text">
+                    <h2 style="margin:2px; padding-left:10px;"> Graduate Research Assistant @ Knowledge-Guided Machine Learning Lab </h2>
+                    <i style="margin:12px;">Dec 2022 - Present </i>
+                     <p style="font-size:20px;margin:12px"> <input type="text" value="Ecology Forecasting"></input>
+                       <input type="text" value="Sequence Models" style="background-color: #AFEEEE;"></input>
+                       <input type="text" value="Transfer Learning" style="background-color: #FFFF00"></input>
+                  </div>
+               </div>
+               <div class="publications">
+                  <div class="publications-image">
+                     <img src="oracle.png" alt="endo" style="border-radius:0%;width:120px;height:120px">
+                  </div>
+                  <div class="publications-text">
+                    <h2 style="margin:2px; padding-left:10px;"> Data Scientist @ Oracle </h2>
+                    <i style="margin:12px;">September 2020 - July 2022 </i>
+                     <p style="font-size:20px;margin:12px"> <input type="text" value="Predictive Applications"></input>
+                       <input type="text" value="Spark ML" style="background-color: #AFEEEE;"></input>
+                       <input type="text" value="ML in Finance" style="background-color: #FFFF00"></input>
+                  </div>
+               </div>
+               <div class="publications">
+                  <div class="publications-image">
+                     <img src="vmware.png" alt="endo" style="border-radius:0%;width:120px;height:90px">
+                  </div>
+                  <div class="publications-text">
+                    <h2 style="margin:2px; padding-left:10px;"> Internship @ VMware </h2>
+                    <i style="margin:12px;">January 2020 - June 2020 </i>
+                     <p style="font-size:20px;margin:12px"> <input type="text" value="Spring Boot"></input>
+                       <input type="text" value="Cloud Computing" style="background-color: #AFEEEE;"></input>
+                       <input type="text" value="REST API" style="background-color: #FFFF00"></input>
+                  </div>
+               </div>
+               <div class="publications">
+                  <div class="publications-image">
+                     <img src="samsung.png" alt="endo" style="border-radius:0%;width:120px;height:90px">
+                  </div>
+                  <div class="publications-text">
+                    <h2 style="margin:2px; padding-left:10px;"> Internship @ Samsung Research </h2>
+                    <i style="margin:12px;">May 2019 - July 2019 </i>
+                     <p style="font-size:20px;margin:12px"> <input type="text" value="Camera Systems"></input>
+                       <input type="text" value="Android HAL" style="background-color: #AFEEEE;"></input>
+                       <input type="text" value="Image Processing" style="background-color: #FFFF00"></input>
+                  </div>
+               </div>
+               <div class="publications">
+                  <div class="publications-image">
+                     <img src="pass.png" alt="endo" style="border-radius:0%;width:120px;height:90px">
+                  </div>
+                  <div class="publications-text">
+                    <h2 style="margin:2px; padding-left:10px;"> Internship @ PASS Consulting </h2>
+                    <i style="margin:12px;">May 2018 - July 2018 </i>
+                     <p style="font-size:20px;margin:12px"> <input type="text" value="Water SCADA"></input>
+                       <input type="text" value="Deep Learning" style="background-color: #AFEEEE;"></input>
+                       <input type="text" value="Data Science" style="background-color: #FFFF00"></input>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
+      <!-- </div> -->
+      <!-- <div class=”blurb”> -->
+      <!-- </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
+      <!-- <div class="float-child-element"> -->
+      <!-- <div class="col_bg"> -->
+      <!-- <div class=”container”> -->
+      <!-- <div class=”blurb”>
+         <section id="about">
+           <h1>Hi, I am Abhilash!</h1>
+           <ul style="text-align: left;">
+           <p style="font-size:20px;"> I am a graduate student at Virginia Tech. Prior to joining VT, I worked as a Data scientist, where I was
+             involved in the development of ML-based applications. I have extensively worked on developing analytic applications in
+             PySpark, and have significant experience with the application life-cycle - data extraction, processing,  modelling, ML
+             models, build and deploy in ETL pipeline. While I have majorly worked on Data science projects in the financial domain,
+             currently I am interested in exploring other domains like social media and climate science. Furthermore, I am highly
+             interested in Deep Learning and Natural Language Processing, and also wish to explore multimodal learning and problems at the
+             intersection of NLP and vision.
+           </ul>
+
+         </section> -->
+      <!-- <p>This is my first page for my personal website!</a></p> -->
+      <!-- </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
+      <!-- </div> -->
+      <!-- <footer>
+         <ul>
+           <li><a href=”mailto:abhilash22@vt.edu”>abhilash22@vt.edu</a></li>
+         </ul>
+         </footer> -->
+         <script>
+          window.onscroll = function() {myFunction()};
+          var header = document.getElementById("myheader");
+          var sticky = header.offsetTop;
+
+          function myFunction() {
+            if (window.pageYOffset > sticky) {
+              header.classList.add("sticky");
+            }
+            else {
+              header.classList.remove("sticky");
+            }
+          }
+        </script>
+   </body>
 </html>
